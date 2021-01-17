@@ -1,16 +1,18 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav id="header">
-      <div className="header container">
+      <div className="header nav-container">
         <div className="nav-bar">
           <div className="brand">
-            <Link to="/">
-              <h1>LOGO</h1>
-            </Link>
+            <NavLink to="/">
+              <h2>
+                <span>P</span>ANACEA
+              </h2>
+            </NavLink>
           </div>
           <div className="nav-list">
             <div className="hamburger">
@@ -18,39 +20,39 @@ const Navbar = () => {
             </div>
             <ul>
               <li>
-                <Link to="/services" data-after="Home">
+                <NavLink to="/services" activeStyle={{ color: "#cabbe9" }}>
                   Services
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to="/projects" data-after="Services">
+                <NavLink to="/projects" activeStyle={{ color: "#cabbe9" }}>
                   Projects
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to="/benefits" data-after="Projects">
+                <NavLink to="/benefits" activeStyle={{ color: "#cabbe9" }}>
                   Why us?
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to="/process" data-after="Projects">
+                <NavLink to="/process" activeStyle={{ color: "#cabbe9" }}>
                   Process
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to="/about" data-after="About">
+                <NavLink to="/about" activeStyle={{ color: "#cabbe9" }}>
                   About
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to="/contact" data-after="Contact">
+                <NavLink to="/contact" activeStyle={{ color: "#cabbe9" }}>
                   Contact
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to="/work" data-after="Contact">
+                <NavLink to="/work" activeStyle={{ color: "#cabbe9" }}>
                   Let's Work Together
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>
