@@ -90,7 +90,7 @@ const Services = () => {
         <div className="row container" style={{ paddingTop: "100px" }}>
           <div className="col-2">
             <h2>Web Development</h2>
-            <h5>
+            <p>
               Web applications are a great way to offer simplicity and
               convenience for both your customers and employees. Web apps
               provide a unique online user interaction experience that reduces
@@ -100,20 +100,76 @@ const Services = () => {
               different types of enterprise web applications, each with a unique
               benefit. At Blink22, we develop a wide range of web applications,
               including some of the most popular types:
-            </h5>
+            </p>
+            <div className="row" style={{ margin: "0" }}>
+              <div className="col-2">
+                <h5>
+                  <img
+                    src={require("../../img/black-point.png")}
+                    className="bullet-point"
+                  />
+                  Static <br />
+                  <img
+                    src={require("../../img/black-point.png")}
+                    className="bullet-point"
+                  />
+                  Dynamic <br />
+                  <img
+                    src={require("../../img/black-point.png")}
+                    className="bullet-point"
+                  />
+                  User Portal <br />
+                  <img
+                    src={require("../../img/black-point.png")}
+                    className="bullet-point"
+                  />
+                  Custom Web Application
+                  <br />
+                </h5>
+              </div>
+              <div className="col-2">
+                <h5>
+                  <img
+                    src={require("../../img/black-point.png")}
+                    className="bullet-point"
+                  />
+                  Real-Time <br />
+                  <img
+                    src={require("../../img/black-point.png")}
+                    className="bullet-point"
+                  />
+                  E-commerce <br />
+                  <img
+                    src={require("../../img/black-point.png")}
+                    className="bullet-point"
+                  />
+                  Educational Application <br />
+                  <img
+                    src={require("../../img/black-point.png")}
+                    className="bullet-point"
+                  />
+                  Content Management System <br />
+                </h5>
+              </div>
+            </div>
+            <p>
+              No matter what type of app your company needs, we’ll help you
+              navigate the entire process from conception to back-end
+              development and front-end design.
+            </p>
           </div>
           <div className="col-2">
             <img
               src={require("../../img/service-1.png")}
               alt="hero-img"
-              style={{ margin: "110px 0 0 50px" }}
+              className="section-img"
             />
           </div>
         </div>
         <div className="row container">
           <div className="col-2">
             <h2>Mobile Development</h2>
-            <h5>
+            <p>
               By the start of 2018, users downloaded 178.1 billion mobile apps
               to their smart devices. In fact, 20% of millennials open an app at
               least 50 times a day. So, it's safe to say that mobile apps are
@@ -123,13 +179,85 @@ const Services = () => {
               market or looking to offer new functionality to your existing
               customer base, an app can open the door to a new market or
               simplify how you interact with an existing market segment.
+            </p>
+            <h5>
+              <img
+                src={require("../../img/black-point.png")}
+                className="bullet-point"
+              />
+              Native Apps <br />
+              <img
+                src={require("../../img/black-point.png")}
+                className="bullet-point"
+              />
+              Web-Based Apps <br />
+              <img
+                src={require("../../img/black-point.png")}
+                className="bullet-point"
+              />
+              Hybrid Apps <br />
             </h5>
+            <p>
+              We'll work with you to develop the perfect mobile application to
+              accommodate your audience’s needs on small screens worldwide.
+            </p>
           </div>
           <div className="col-2">
             <img
               src={require("../../img/service-2.png")}
               alt="hero-img"
-              style={{ margin: "110px 0 0 50px" }}
+              className="section-img"
+            />
+          </div>
+        </div>
+        <div className="row container">
+          <div className="col-2">
+            <h2>ChatBots</h2>
+            <p>
+              Chatbots are the wave of the future, especially if you’re
+              interested in offering a seamless user experience across your
+              entire organization. Enterprise chatbots offer a virtual support
+              experience that allows your users to get the answers they need,
+              quickly and efficiently, without talking to a real person. In
+              fact, a well-designed and programmed chatbot can seem so lifelike
+              that your users won't know the difference.Our expert engineering
+              team can handle the complete development of chatbot applications
+              with a wide range of intelligent capabilities:
+            </p>
+            <h5>
+              <img
+                src={require("../../img/black-point.png")}
+                className="bullet-point"
+              />
+              NLP Chatbots <br />
+              <img
+                src={require("../../img/black-point.png")}
+                className="bullet-point"
+              />
+              Social Messaging Chatbots
+              <br />
+              <img
+                src={require("../../img/black-point.png")}
+                className="bullet-point"
+              />
+              Context Enabled Chatbots <br />
+              <img
+                src={require("../../img/black-point.png")}
+                className="bullet-point"
+              />
+              Voice-Enabled Chatbots <br />
+            </h5>
+            <p>
+              No matter what type of app your company needs, we'll help you
+              navigate the entire process from conception to back-end
+              development and front-end design.
+            </p>
+          </div>
+          <div className="col-2">
+            <img
+              src={require("../../img/service-3.png")}
+              alt="hero-img"
+              className="section-img"
             />
           </div>
         </div>
